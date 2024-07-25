@@ -62,6 +62,7 @@
     "react-resizable-panels": "^2.0.22",
     "recharts": "^2.12.7",
     "sonner": "^1.5.0",
+    "stripe": "^16.4.0",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
     "ts-spinner": "^1.0.0",
