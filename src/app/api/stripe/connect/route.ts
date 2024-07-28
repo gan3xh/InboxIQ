@@ -5,7 +5,7 @@ import Stripe from 'stripe'
 
 const stripe = new Stripe(process.env.STRIPE_SECRET!, {
   typescript: true,
-  apiVersion: '2024-04-10',
+  apiVersion: '2024-06-20',
 })
 
 export async function GET() {
