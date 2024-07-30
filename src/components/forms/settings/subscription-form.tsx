@@ -20,7 +20,7 @@ const SubscriptionForm = ({ plan }: Props) => {
         <div className="flex flex-col gap-3">
           <SubscriptionCard
             title="STANDARD"
-            description="Perfect if you’re just getting started with Corinna AI"
+            description="Perfect if you’re just getting started with InboxIQ AI"
             price="0"
             payment={payment}
             onPayment={onSetPayment}
@@ -29,8 +29,8 @@ const SubscriptionForm = ({ plan }: Props) => {
 
           <SubscriptionCard
             title="PRO"
-            description="Perfect if you’re just getting started with Corinna AI"
-            price="15"
+            description="Perfect if you’re just getting started with InboxIQ AI"
+            price="1500"
             payment={payment}
             onPayment={onSetPayment}
             id="PRO"
@@ -38,8 +38,8 @@ const SubscriptionForm = ({ plan }: Props) => {
 
           <SubscriptionCard
             title="ULTIMATE"
-            description="Perfect if you’re just getting started with Corinna AI"
-            price="35"
+            description="Perfect if you’re just getting started with InboxIQ AI"
+            price="3500"
             payment={payment}
             onPayment={onSetPayment}
             id="ULTIMATE"

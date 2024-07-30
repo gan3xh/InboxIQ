@@ -34,12 +34,17 @@ export default function Home() {
             className="max-w-lg object-contain"
           />
           <p className="text-center max-w-[500px]">
-            Your AI powered sales assistant! Embed Corinna AI into any website
+            Your AI powered sales assistant! Embed InboxIQ AI into any website
             with just a snippet of code!
           </p>
-          <Button className="bg-orange font-bold text-white px-4">
-            Start For Free
-          </Button>
+          <Link
+        href="/dashboard"
+        className="bg-orange px-4 py-2 rounded-sm text-white"
+      >
+        Start for Free
+      </Link>
+
+          
           <Image
             src="/images/iphonecorinna.png"
             width={400}
@@ -99,13 +104,15 @@ export default function Home() {
         ))}
       </div>
 
-      <section className="flex justify-center items-center flex-col gap-4 mt-28">
-        <h2 className="text-4xl text-center">News Room</h2>
-        <p className="text-muted-foreground text-center max-w-lg">
-          Explore our insights on AI, technology, and optimizing your business.
-        </p>
-      </section>
+      
   </main>
    
       ) 
 }
+
+/*<section className="flex justify-center items-center flex-col gap-4 mt-28">
+        <h2 className="text-4xl text-center">News Room</h2>
+        <p className="text-muted-foreground text-center max-w-lg">
+          Explore our insights on AI, technology, and optimizing your business.
+        </p>
+      </section>*/ 
