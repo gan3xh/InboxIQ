@@ -19,14 +19,14 @@ const CodeSnippet = ({ id }: Props) => {
     document.head.append(style);
     }
     
-    iframeStyles('
+    iframeStyles('<-Add Backtick instead of Apostrophe 
         .chat-frame {
             position: fixed;
             bottom: 50px;
             right: 50px;
             border: none;
         }
-    ')
+    '<-Add Backtick instead of Apostrophe)
     
     iframe.src = "http://localhost:3000/chatbot"
     iframe.classList.add('chat-frame')

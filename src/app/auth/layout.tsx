@@ -30,7 +30,7 @@ const Layout = async ({ children }: Props) => {
       </div>
       <div className="hidden lg:flex flex-1 w-full max-h-full max-w-4000px overflow-hidden relative bg-cream  flex-col pt-10 pl-24 gap-3">
         <h2 className="text-gravel md:text-4xl font-bold">
-          Hi, I'm your AI powered sales assistant, InboxIQ.ai!
+          Hi, I am your AI powered sales assistant, InboxIQ.ai!
         </h2>
         <p className="text-iridium md:text-sm mb-10">
           InboxIQ is capable of capturing lead information without a form...{' '}
