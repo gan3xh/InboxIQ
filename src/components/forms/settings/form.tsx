@@ -17,7 +17,7 @@ const WelcomeMessage = dynamic(
     ssr: false,
   }
 )
-
+//WIP
 type Props = {
   id: string
   name: string
