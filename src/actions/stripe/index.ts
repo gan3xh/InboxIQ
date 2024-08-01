@@ -89,7 +89,7 @@ export const onGetStripeClientSecret = async (
   try {
     const amount = setPlanAmount(item)
     const paymentIntent = await stripe.paymentIntents.create({
-      currency: 'usd',
+      currency: 'rupee',
       amount: amount,
       automatic_payment_methods: {
         enabled: true,

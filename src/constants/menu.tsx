@@ -36,12 +36,12 @@ export const SIDE_BAR_MENU: SIDE_BAR_MENU_PROPS[] = [
     path: 'settings',
   },
   {
-    label: 'Appointments',
+    label: 'Feature Locked',
     icon: <CalIcon />,
     path: 'appointment',
   },
   {
-    label: 'Email Marketing',
+    label: 'Feature Locked',
     icon: <EmailIcon />,
     path: 'email-marketing',
   },

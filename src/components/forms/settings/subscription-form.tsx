@@ -30,7 +30,7 @@ const SubscriptionForm = ({ plan }: Props) => {
           <SubscriptionCard
             title="PRO"
             description="Perfect if you’re just getting started with InboxIQ AI"
-            price="1500"
+            price="60"
             payment={payment}
             onPayment={onSetPayment}
             id="PRO"
@@ -39,7 +39,7 @@ const SubscriptionForm = ({ plan }: Props) => {
           <SubscriptionCard
             title="ULTIMATE"
             description="Perfect if you’re just getting started with InboxIQ AI"
-            price="3500"
+            price="100"
             payment={payment}
             onPayment={onSetPayment}
             id="ULTIMATE"
