@@ -8,7 +8,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET!, {
   apiVersion: '2024-06-20',
 })
 
-export async function GET() {
+/*export async function GET() {
   try {
     const user = await currentUser()
     if (!user) return new NextResponse('User not authenticated')
@@ -149,4 +149,4 @@ export async function GET() {
       error
     )
   }
-}
+}*/
