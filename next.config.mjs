@@ -10,10 +10,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'ucarecdn.com',
       },
-      {
-        protocol: 'https',
-        hostname: 'wordpress-1269066-4577871.cloudwaysapps.com',
-      },
+      /* {
+         protocol: 'https',
+         hostname: 'wordpress-1269066-4577871.cloudwaysapps.com',
+       },*/
     ],
   },
 }

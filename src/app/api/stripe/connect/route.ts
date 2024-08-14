@@ -1,4 +1,4 @@
-/*import { client } from '@/lib/prisma'
+import { client } from '@/lib/prisma'
 import { currentUser } from '@clerk/nextjs'
 import { NextResponse } from 'next/server'
 import Stripe from 'stripe'
@@ -149,4 +149,4 @@ export async function GET() {
       error
     )
   }
-}*/
+}
