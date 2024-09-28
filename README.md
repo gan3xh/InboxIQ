@@ -2,7 +2,7 @@
 
 ## Next-Generation AI-Powered SaaS Platform with scalable business model
 
-InboxIQ Ai is a cutting-edge SaaS (Software as a Service) platform that leverages the latest in web technologies and artificial intelligence to revolutionize web development, customer engagement, and business operations.
+InboxIQ Ai is a cutting-edge SaaS (Software as a Service) platform that allows clients to create a single, centralized chatbot that can be easily integrated into any website with a simple code snippet. This saves time and costs by eliminating the need for multiple chatbots. Additionally, it includes built-in chatbot training and offers real-time support.
 
 ## Technical Stack Highlights
 
